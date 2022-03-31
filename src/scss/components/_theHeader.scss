@@ -1,0 +1,51 @@
+.head {
+    background-color: $main;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        align-items: center;
+        padding: 25px 0;
+        .logo {
+            font-size: 25px;
+            cursor: pointer;
+        }
+        nav {
+          position: relative;
+          .i{
+            display: none;
+          }
+            a {
+                text-decoration: none;
+                transition: 0.1s;
+                margin-left: 10px;
+								color: rgba(255, 255, 255, 0.678);
+							}
+            a.router-link-exact-active {
+                a {
+                    color: rgb(255, 255, 255);
+                }
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+  .head .container nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 235px;
+    right: 0px;
+    background-color: $secondery;
+    z-index: 2;
+    overflow: hidden;
+    height: 0;
+  }
+  .head .container nav .i{
+    font-size: 22px;
+    display: block;
+		cursor: pointer;
+  }
+}

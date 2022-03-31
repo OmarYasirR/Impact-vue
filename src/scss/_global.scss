@@ -1,0 +1,25 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+$main: #008374;
+$secondery: #f85a40;
+.btn{
+    background-color: $secondery;
+    background-color: #f85a40;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}

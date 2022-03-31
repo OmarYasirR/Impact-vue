@@ -1,0 +1,17 @@
+[
+	{
+		"image": "assets/person_1.jpg",
+		"name": "john",
+		"opinion": "“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove”"
+	},
+	{
+		"image": "assets/person_2.jpg",
+		"name": "john doe",
+		"opinion": "“    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci magni quod voluptate quidem iusto ratione odit rem reiciendis numquam inventore.”"
+	},
+	{
+		"image": "assets/person_3.jpg",
+		"name": "john doectrc",
+		"opinion": "“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”"
+	}
+]

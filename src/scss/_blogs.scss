@@ -1,0 +1,35 @@
+.blogs{
+	background-color: #fafafa;
+	.blg-box{
+		margin: auto;
+		padding: 50px 0;
+		background-color: $main;
+		h2{
+        font-size: 30px;
+				width: fit-content;
+				margin: auto;
+				font-weight: bolder;
+				color: white;
+		}
+		p{
+        width: 50%;
+				margin: auto;
+				text-align: center;
+				color: rgba(255, 255, 255, 0.63);
+		}
+		.btn{
+			margin-left: auto;
+			border: 2px solid $secondery;
+			text-transform: capitalize;
+			&:hover{
+				background-color: $main;
+
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.blogs .blg-box p{
+		width: 100%;
+	}
+}

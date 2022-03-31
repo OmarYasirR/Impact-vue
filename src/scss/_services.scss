@@ -1,0 +1,76 @@
+.services {
+	.bg {
+		padding: 50px 0;
+		background-color: $main;
+		.box {
+			text-align: center;
+			width: 50%;
+			margin: auto;
+			h2 {
+				font-weight: bolder;
+				text-transform: capitalize;
+				font-size: 30px;
+				color: white;
+			}
+			p {
+				color: rgba(255, 255, 255, 0.548);
+				font-size: 17px;
+			}
+			.btn {
+				margin: auto;
+				text-transform: capitalize;
+				margin-top: 20px;
+				&:hover {
+					border: white 2px solid;
+					background: $main;
+				}
+			}
+		}
+	}
+	.srvs {
+		background-color: #fafafa;
+		.container.srv {
+			margin-top: 50px;
+			padding: 100px 0;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			column-gap: 25px;
+			row-gap: 25px;
+			.box {
+				padding: 30px;
+				width: 100%;
+				background-color: white;
+				border-radius: 10px;
+				box-shadow: 0 0 15px 3px #eee;
+				.icon {
+					font-size: 40px;
+					color: $main;
+					margin-bottom: 20px;
+				}
+				h3 {
+					font-weight: bolder;
+					margin-bottom: 15px;
+					font-weight: bolder;
+					text-transform: capitalize;
+				}
+				p {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 991px) {
+	.services .srvs .container.srv {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3%;
+	}
+}
+@media (max-width: 767px) {
+	.services .box {
+		width: 100%;
+	}
+	.services .srvs .container.srv {
+    grid-template-columns: 1fr;
+	}
+}
